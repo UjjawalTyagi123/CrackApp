@@ -1,0 +1,32 @@
+.form-main{
+  max-width: 80%;
+  padding-top: 2%;
+  padding-left: 20%;
+}
+
+.testing.value{
+  color: brown;
+}
+.title{
+  margin-top: 30px;
+  margin-left: 40%;
+}
+
+.bg-img{
+  opacity: 0.13;
+  position: absolute;
+  z-index: -1;
+  width: 70%;
+  height: 58rem;
+  margin-left: 15%;
+}
+
+.explore-btn{
+float: right;
+margin-bottom: 5%;
+margin-right: 2rem;
+}
+.explore-btn h3:hover{
+  opacity:0.5;
+  cursor: pointer;
+}

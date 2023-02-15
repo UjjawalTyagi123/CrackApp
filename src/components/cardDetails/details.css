@@ -1,0 +1,48 @@
+.photo{
+ 
+    margin: 20vh;
+}
+.loading{
+   margin: 20%;
+   margin-left: 50%;
+   font-size: 5rem;
+}
+.photo img{
+width: 400px;
+height: 400px;
+border-radius: 100%;
+}
+.data{
+    margin-top: 30vh;
+}
+.details-main{
+    display: flex;
+}
+.social-accounts a{
+    text-decoration: none;
+    font-size: 3vh;
+}
+
+@media(max-width:1080px){
+    .details-main{
+        display: inline;
+    }
+    .photo img{
+        width: 250px;
+        height: 250px;
+      
+        }
+        .photo{
+ 
+            margin: 0;
+            margin-top: 10px;
+            margin-left: 5px;
+        }
+        .data{
+            margin-top: 0;
+            margin-left: 5px;
+        }
+        .details-main{
+            margin-top: 0;
+        }
+}
