@@ -2,6 +2,7 @@ import Student from "./card/card";
 import { Grid, CircularProgress } from "@material-ui/core";
 import { useUserData } from "../Hooks/useUserData";
 
+
 function Card(props) {
   const onSuccess = (data) => {
     console.log("Perform side effect after data fetching");
@@ -11,7 +12,7 @@ function Card(props) {
   };
 
   const { isLoading, data, isFetching } = useUserData(onSuccess, onError);
-
+   
   let users = data?.data;
   console.log(users);
 

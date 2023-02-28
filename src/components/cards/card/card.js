@@ -13,14 +13,7 @@ function Student(props) {
     <Card
       onClick={handleCard}
       className="card-main"
-      style={{
-        width: "18rem",
-        cursor: "pointer",
-        maxHeight: "16rem",
-        overflow: "hidden",
-        scrollbarWidth: "0px",
-        marginTop: "5rem",
-      }}
+      
     >
       <Card.Img
         variant="top"
@@ -35,7 +28,7 @@ function Student(props) {
       />
       <Card.Body>
         <Card.Title style={{ marginLeft: "5rem" }}>{user.username}</Card.Title>
-        <Card.Text>
+        <Card.Text >
           {user.about
             ? user.about
             : "hey nerds! i'm intense focused,contact me if you wanna make me your academic partner"}
